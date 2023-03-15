@@ -11,7 +11,6 @@ public class Estoque {
         this.qtdMinima = qtdMinima;
     }
 
-    // Getters e setters
     public String getNome() {
         return nome;
     }
@@ -52,8 +51,7 @@ public class Estoque {
         return this.qtdAtual <= this.qtdMinima;
     }
 
-    public static void main(String[] args) {
-        // Cria um novo objeto Estoque
+    public static void main(String[] args) {   
         Estoque estoque = new Estoque("Caneta", 10, 5);
 
         System.out.println("Antes da movimentação do estoque: ");
